@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <!--------------------------------head------------------------------->
+    <header>
+        <div class="logo">
+            <img src="/assets/img/logo-4.png" alt="">
+        </div>
+
+        <div class="menu">
+            <li><a href="">NỮ</a>
+                <ul class="sub-menu">
+                    <li><a href="">Hàng mới về</a></li>
+                    <li><a href="">Áo</a>
+                        <ul>
+                            <li><a href="">Áo thun</a></li>
+                            <li><a href="">Áo sơ mi</a></li>
+                            <li><a href="">Áo khoác</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">Quần</a>
+                        <ul>
+                            <li><a href="">Quần jeans</a></li>
+                            <li><a href="">Quần dài</a></li>
+                            <li><a href="">Quần lửng/short</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li><a href="">NAM</a>
+                <ul class="sub-menu">
+                    <li><a href="">Hàng mới về</a></li>
+                    <li><a href="">Áo</a>
+                        <ul>
+                            <li><a href="">Áo thun</a></li>
+                            <li><a href="">Áo sơ mi</a></li>
+                            <li><a href="">Áo khoác</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">Quần</a>
+                        <ul>
+                            <li><a href="">Quần jeans</a></li>
+                            <li><a href="">Quần dài</a></li>
+                            <li><a href="">Quần lửng/short</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a style="color: red;" href="">SALE</a>
+                <ul class="sub-menu">
+                    <li><a href="">Áo dạ lông</a></li>
+                    <li><a href="">Nữ</a>
+                        <ul>
+                            <li><a href="">Sale 30%</a></li>
+                            <li><a href="">Sale 50%</a></li>
+                            <li><a style="color: red;" href="">Mua nhiều giảm sâu từ 199k</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">Nam</a>
+                        <ul>
+                            <li><a href="">Sale 50%</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">BỘ SƯU TẬP</a></li>
+            <li><a href="">LIFESTYLE</a></li>
+            <li><a href="">THÔNG TIN</a></li>
+        </div>
+        
+        <div class="others">
+            <li><input placeholder="Tìm kiếm..." type="text"></input></li>
+            <li><a href="" class="ti-headphone"></a></li>
+            <li><a href="" class="ti-user"></a></li>
+            <li><a href="" class="ti-shopping-cart"></a></li>
+        </div>
+
+    </header>
+
+    <!--------------------------------delivery------------------------------->
+    <section class="delivery">
+        <div class="container">
+            <div class="cart-top-wrap">
+                <div class="cart-top">
+                    <div class="delivery-top-cart cart-top-item">
+                        <i class="ti-shopping-cart"></i>
+                    </div>
+                    <div class="delivery-top-addr cart-top-item">
+                        <i class="ti-location-pin"></i>
+                    </div>
+                    <div class="delivery-top-paym cart-top-item">
+                        <i class="ti-check-box"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="delivery-content row">
+                <div class="delivery-content-left">
+                    <p>Vui lòng chọn địa chỉ giao hàng</p>
+                    <div class="delivery-content-left-login row">
+                        <i class="ti-shift-right"></i>
+                        <p> Đăng nhập (Nếu bạn đã có tài khoản của MAKIMA)</p>
+                    </div>
+                    <div class="delivery-content-left-guest row">
+                        <input checked name="loaikhach" type="radio">
+                        <p><span style="font-weight: bold;">Khách lẻ</span> (Nếu bạn không muốn lưu thông tin)</p>
+                    </div>
+                    <div class="delivery-content-left-register row">
+                        <input name="loaikhach" type="radio">
+                        <p><span style="font-weight: bold;">Đăng ký</span> (Tạo mới tài khoản với thông tin bên dưới)</p>
+                    </div>
+
+                    <div class="delivery-content-left-input-top row">
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Họ tên <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Điện thoại <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Tỉnh/Tp <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Quận/Huyện <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="delivery-content-left-input-bottom">                      
+                        <label for="">Địa chỉ <span style="color: red;">*</span></label>
+                        <input type="text">                   
+                    </div>
+                    <div class="delivery-content-left-button row">
+                        <a href=""><span>&#171;</span> <p>Quay lại giỏ hàng</p></a>
+                        <button><p style="font-weight: bold;">THANH TOÁN VÀ GIAO HÀNG</p></button>
+                    </div>
+                </div>
+
+                <div class="delivery-content-right">
+                    <table>
+                        <tr>
+                            <th>Tên sản phẩm </th>
+                            <th>Giảm giá </th>
+                            <th>Số lượng </th>
+                            <th>Thành tền </th>
+                        </tr>
+                        <tr>
+                            <td>Áo thun thêu hoạ tiết</td>
+                            <td>-30%</td>
+                            <td>1</td>
+                            <td><p>590.000 <sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td>Áo thun thêu hoạ tiết</td>
+                            <td>-30%</td>
+                            <td>1</td>
+                            <td><p>590.000 <sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng</td>
+                            <td style="font-weight: bold;"><p>590.000 <sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Thuế VAT</td>
+                            <td style="font-weight: bold;"><p>590.000 <sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng tiền hàng</td>
+                            <td style="font-weight: bold;"><p>590.000 <sup>đ</sup></p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--------------------------------contact------------------------------->
+    <section class="contact-container">
+        <p>Tải ứng dụng</p>
+        <div class="app-google">
+            <img src="assets/img/ios-download2.png" >
+            <img src="assets/img/google-download.png" >
+        </div>
+        <p>Nhận bản tin</p>
+        <input type="text" placeholder="Nhập email của bạn...">
+    </section>
+
+    <!--------------------------------foot------------------------------->
+    <footer>
+        <div class="footer-top">
+            <li><a href=""></a>Liên hệ</li>
+            <li><a href=""></a>Tuyển dụng</li>
+            <li><a href=""></a>Giới thiệu</li>
+            <li>
+                <a href="" class="ti-facebook"></a>
+                <a href="" class="ti-twitter"></a>
+                <a href="" class="ti-youtube"></a>
+            </li>
+        </div>
+
+        <div class="footer-bottom">
+            ©Makima All rights reverved
+        </div>
+    </footer>

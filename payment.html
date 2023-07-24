@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <!--------------------------------head------------------------------->
+    <header>
+        <div class="logo">
+            <img src="/assets/img/logo-4.png" alt="">
+        </div>
+
+        <div class="menu">
+            <li><a href="">NỮ</a>
+                <ul class="sub-menu">
+                    <li><a href="">Hàng mới về</a></li>
+                    <li><a href="">Áo</a>
+                        <ul>
+                            <li><a href="">Áo thun</a></li>
+                            <li><a href="">Áo sơ mi</a></li>
+                            <li><a href="">Áo khoác</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">Quần</a>
+                        <ul>
+                            <li><a href="">Quần jeans</a></li>
+                            <li><a href="">Quần dài</a></li>
+                            <li><a href="">Quần lửng/short</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li><a href="">NAM</a>
+                <ul class="sub-menu">
+                    <li><a href="">Hàng mới về</a></li>
+                    <li><a href="">Áo</a>
+                        <ul>
+                            <li><a href="">Áo thun</a></li>
+                            <li><a href="">Áo sơ mi</a></li>
+                            <li><a href="">Áo khoác</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">Quần</a>
+                        <ul>
+                            <li><a href="">Quần jeans</a></li>
+                            <li><a href="">Quần dài</a></li>
+                            <li><a href="">Quần lửng/short</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a style="color: red;" href="">SALE</a>
+                <ul class="sub-menu">
+                    <li><a href="">Áo dạ lông</a></li>
+                    <li><a href="">Nữ</a>
+                        <ul>
+                            <li><a href="">Sale 30%</a></li>
+                            <li><a href="">Sale 50%</a></li>
+                            <li><a style="color: red;" href="">Mua nhiều giảm sâu từ 199k</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">Nam</a>
+                        <ul>
+                            <li><a href="">Sale 50%</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">BỘ SƯU TẬP</a></li>
+            <li><a href="">LIFESTYLE</a></li>
+            <li><a href="">THÔNG TIN</a></li>
+        </div>
+        
+        <div class="others">
+            <li><input placeholder="&ensp; Tìm kiếm..." type="text"></input></li>
+            <li><a href="" class="ti-headphone"></a></li>
+            <li><a href="" class="ti-user"></a></li>
+            <li><a href="" class="ti-shopping-cart"></a></li>
+        </div>
+
+    </header>
+
+    <!--------------------------------payment------------------------------->
+    <section class="payment">
+        <div class="container">
+            <div class="cart-top-wrap">
+                <div class="cart-top">
+                    <div class="payment-top-cart cart-top-item">
+                        <i class="ti-shopping-cart"></i>
+                    </div>
+                    <div class="payment-top-addr cart-top-item">
+                        <i class="ti-location-pin"></i>
+                    </div>
+                    <div class="payment-top-paym cart-top-item">
+                        <i class="ti-check-box"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="payment-content row">
+                <div class="payment-content-left">
+                    <div class="payment-delivery-method">
+                        <p style="font-weight: bold;">Phương thức giao hàng</p>
+                        <div class="payment-delivery-method-item">
+                            <input checked type="radio">
+                            <label for="">Giao hàng chuyển phát nhanh</label>
+                        </div>
+                    </div>
+                    <div class="payment-payment-method">
+                        <p style="font-weight: bold;">Phương thức thanh toán</p>
+                        <p>Mọi giao dịch đều được bảo mật và mã hoá. Thông tin thẻ tín dụng sẽ không bao giờ được lưu lại.</p>
+                        <div class="payment-payment-method-item">
+                            <input name="payment-method" type="radio">
+                            <label for="">Thanh toán bằng thẻ tín dụng(OnePay)</label><br>
+                            <img src="/assets/img/visa/visa-and-mastercard-2.png" alt="">
+                        </div>
+                        <!-- <div class="payment-payment-method-img">
+                            <img src="/assets/img/visa/visa-and-mastercard-2.png" alt="">
+                        </div> -->
+
+                        <div class="payment-payment-method-item">
+                            <input checked name="payment-method" type="radio">
+                            <label for="">Thanh toán bằng thẻ ATM</label>
+                            <p>Hỗ trợ thanh toán online hơn 38 ngân hàng phổ biến Việt Nam.</p>
+                        </div>
+                        <!-- <div class="payment-payment-method-img">
+                            <img src="/assets/img/visa/visa-and-mastercard-2.png" alt="">
+                            <p>Hỗ trợ thanh toán online hơn 38 ngân hàng phổ biến Việt Nam.</p>
+                        </div> -->
+
+                        <div class="payment-payment-method-item">
+                            <input name="payment-method" type="radio">
+                            <label for="">Thanh toán qua Momo</label>
+                        </div>
+                        <div class="payment-payment-method-item">
+                            <input name="payment-method" type="radio">
+                            <label for="">Thanh toán khi giao hàng</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="payment-content-right">
+                    <div class="payment-content-right-button">
+                        <input type="text" placeholder="Mã giảm giá/Quà tặng">
+                        <button><i class="ti-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-button">
+                        <input type="text" placeholder="Mã cộng tác viên">
+                        <button><i class="ti-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-mnv">
+                        <select name="" id="">
+                            <option value="">Chọn mã nhân viên thân thiết</option>
+                            <option value="">D345</option>
+                            <option value="">A345</option>
+                            <option value="">Y345</option>
+                            <option value="">C345</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="payment-content-purchase">
+                <button>TIẾP TỤC THANH TOÁN</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!--------------------------------contact------------------------------->
+    <section class="contact-container">
+        <p>Tải ứng dụng</p>
+        <div class="app-google">
+            <img src="assets/img/ios-download2.png" >
+            <img src="assets/img/google-download.png" >
+        </div>
+        <p>Nhận bản tin</p>
+        <input type="text" placeholder="Nhập email của bạn...">
+    </section>
+
+    <!--------------------------------foot------------------------------->
+    <footer>
+        <div class="footer-top">
+            <li><a href=""></a>Liên hệ</li>
+            <li><a href=""></a>Tuyển dụng</li>
+            <li><a href=""></a>Giới thiệu</li>
+            <li>
+                <a href="" class="ti-facebook"></a>
+                <a href="" class="ti-twitter"></a>
+                <a href="" class="ti-youtube"></a>
+            </li>
+        </div>
+
+        <div class="footer-bottom">
+            ©Makima All rights reverved
+        </div>
+    </footer>
